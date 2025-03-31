@@ -23,10 +23,11 @@ public class Persona {
         this.altura = altura;
     }
 public int calcularIMC(){
-    float IMC= this.peso/(this.altura*2);
+    // podria usar (Math.pow(this.altura, 2))
+    float IMC= this.peso/(this.altura* this.altura);
     if (IMC<20){
         return -1; // bajo peso
-    }else if (20> IMC && IMC<25){
+    }else if (20>= IMC && IMC <= 25){
         return 0;
     }else{ 
         return 1;
