@@ -1,3 +1,5 @@
+
+
 // Ejercicio 1: Crear un programa que almacene en un arreglo 10 ciudades y sus temperaturas mínimas y máximas.{
 
 
