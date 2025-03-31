@@ -1,3 +1,5 @@
+
+
 public class Automovil { //se agrega la palabra reservada y en mayuscula la clase 
         
     String marca;
