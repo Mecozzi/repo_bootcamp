@@ -1,5 +1,6 @@
 package CarreraConClases;
 
+
 import java.util.ArrayList;
 
 public class Categoria {
@@ -15,7 +16,9 @@ public class Categoria {
         this.precioMenor18 = precioMenor18;
         this.precioMayor18 = precioMayor18;
         this.inscriptos = new ArrayList<>();
-    }public String getNombre() {
+    }
+
+    public String getNombre() {
         return nombre;
     }
 
